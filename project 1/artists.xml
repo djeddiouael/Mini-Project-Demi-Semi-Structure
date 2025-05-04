@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<CD nom="MON CD">
+    <!--  Les artistes  -->
+    <artiste no="a01" nom=" FIRGANI mohamed Taher" ville="Constantine">
+        <site url="http://www.Mohamedfergani.dz" />
+        <biographie>Ne a constantine, grand cahnteur de malouf</biographie>
+    </artiste>
+    <artiste no="a03" nom="ALHACHEMI GUARWABI" ville="Alger">
+        <site url="http://www.AlhachemiGUATWABI.dz" />
+        <biographie>Ne a alger, grand chanteur de asimi</biographie>
+    </artiste>
+    <artiste no="a02" nom="BENANI Hamdi" ville="Annaba">
+        <site url="http://www.Bennani Hamedi.dz" />
+        <biographie>Ne a Annaba, grand chanteur de malouf moderne</biographie>
+    </artiste>
+
+    <artiste no="a04" nom="IDIR" ville="TIZI OUZOU">
+        <site url="http://www.IDIR.dz" />
+        <biographie>Ne a TiziOuzou, grand chanteur de Kabyle</biographie>
+    </artiste>
+    <!--  Les Albums  -->
+    <album annee="1957" reference="firg">
+        <titre>MALOUF constantinois</titre>
+        <ref-artiste ref="a01" />
+        <chansons>
+            <chanson>yanadim</chanson>
+            <chanson>layali sourour</chanson>
+        </chansons>
+    </album>
+    <album annee="1983" reference="hach2">
+        <titre>ASIMI</titre>
+        <ref-artiste ref="a03" />
+        <chansons>
+            <chanson>GOULOU Liness</chanson>
+        </chansons>
+    </album>
+    <album annee="1964" reference="hash1">
+        <titre>Réligion</titre>
+        <ref-artiste ref="a03" />
+        <chansons>
+            <chanson>ADAM WA HAWA</chanson>
+            <chanson>YOUCEF</chanson>
+
+        </chansons>
+
+    </album>
+    <album annee="1986" reference="bina1">
+        <titre>Malouf moderne</titre>
+        <ref-artiste ref="a02" />
+        <chansons>
+            <chanson>hama ya madani</chanson>
+            <chanson>bismellah</chanson>
+        </chansons>
+    </album>
+    <album annee="1999" reference="bina2">
+        <titre>Malouf Annabi</titre>
+        <ref-artiste ref="a02" />
+        <chansons>
+            <chanson>Bilah Ya hammama</chanson>
+            <chanson>bismellah</chanson>
+        </chansons>
+    </album>
+
+    <album annee="2000" reference="idi">
+        <titre>KABYLe</titre>
+        <ref-artiste ref="a04" />
+        <chansons>
+            <chanson>i vava inouva</chanson>
+        </chansons>
+    </album>
+</CD>
+

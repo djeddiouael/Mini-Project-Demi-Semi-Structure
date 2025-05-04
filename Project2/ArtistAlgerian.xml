@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl"?>
+
+<CD nom="MON CD">
+    <!-- Les artistes -->
+    <artiste no="a01" nom="FIRGANI mohamed Taher" ville="Constantine" />
+    <artiste no="a02" nom="BENANI Hamdi" ville="Annaba" />
+    <artiste no="a03" nom="ALHACHEMI GUARWABI" ville="Alger" />
+    <artiste no="a04" nom="ABDOU Rahmoune" ville="Tizi Ouzou" />
+
+    <!-- Les Albums -->
+    <album annee="1957">
+        <titre>MALOUF constantinois</titre>
+        <ref-artiste ref="a01" />
+        <chansons>
+            <chanson>Yanadim</chanson>
+            <chanson>Layali Sourour</chanson>
+        </chansons>
+    </album>
+    <album annee="1986">
+        <titre>Malouf Moderne</titre>
+        <ref-artiste ref="a01" />
+        <chansons>
+            <chanson>Hama Ya Madani</chanson>
+            <chanson>Bismillah</chanson>
+        </chansons>
+    </album>
+    <album annee="1999">
+        <titre>Malouf Annabi</titre>
+        <ref-artiste ref="a02" />
+        <chansons>
+            <chanson>Bilah Ya Hammama</chanson>
+            <chanson>Bismillah</chanson>
+        </chansons>
+    </album>
+    <album annee="2000">
+        <titre>Kabyle</titre>
+        <ref-artiste ref="a04" />
+        <chansons>
+            <chanson>I Vava Inouva</chanson>
+            <chanson>Bilah Ya Hammama</chanson>
+            <chanson>Bismillah</chanson>
+        </chansons>
+    </album>
+</CD>
