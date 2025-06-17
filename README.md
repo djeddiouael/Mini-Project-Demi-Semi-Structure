@@ -1,60 +1,59 @@
-# Project2
-
-Ce dossier contient le code et les ressources du Projet 2 du dépôt [Mini-Project-Demi-Semi-Structure](https://github.com/djeddiouael/Mini-Project-Demi-Semi-Structure).
-
-## Structure du dossier
-
-- `Project2/`  
-  Contient tous les fichiers liés au Projet 2 (scripts, données, résultats, etc.).
+# Project2 - Recherche d’Artistes Algériens
 
 ## Objectif
 
-Décrivez ici l'objectif principal du Projet 2.  
-_Exemple : Ce projet vise à appliquer des techniques d'apprentissage automatique sur des données semi-structurées, en mettant l'accent sur l'extraction de caractéristiques et la classification._
+Développer une application Python permettant de rechercher des informations sur des artistes musicaux algériens et leurs albums à partir d’un fichier XML prédéfini (`ArtistAlgerian.xml`).  
+Deux modes d’exécution sont possibles :
+- Interface en ligne de commande (CLI)
+- Application web avec Flask
+
+L’application permet de :
+- Rechercher un artiste par nom
+- Afficher les informations détaillées : nom, ville d’origine, biographie, site web (si disponible)
+- Lister les albums de l’artiste avec leur année de sortie et leur tracklist
+
+---
 
 ## Prérequis
 
 - Python 3.x
-- Bibliothèques nécessaires (à adapter selon le contenu du projet) :
+- Bibliothèques nécessaires :
   - numpy
   - pandas
   - scikit-learn
   - matplotlib
+  - flask (si vous choisissez le mode web)
 
 Installez les dépendances avec :
-
 ```bash
 pip install -r requirements.txt
 ```
 
+---
+
 ## Utilisation
 
-1. Clonez le dépôt :
+1. Cloner le dépôt :
    ```bash
    git clone https://github.com/djeddiouael/Mini-Project-Demi-Semi-Structure.git
    ```
-2. Rendez-vous dans le dossier du projet :
+2. Aller dans le dossier du projet :
    ```bash
    cd Mini-Project-Demi-Semi-Structure/Project2
    ```
-3. Exécutez le ou les scripts principaux selon les instructions spécifiques à ce projet.
+3. Placer le fichier `ArtistAlgerian.xml` dans le dossier `data/`
+4. Exécuter le script principal selon le mode choisi :
 
-## Organisation des fichiers
+   **Pour le mode CLI :**
+   ```bash
+   python main.py
+   ```
 
-- `main.py` : Script principal pour lancer l'expérience ou le pipeline du projet.
-- `data/` : Dossier contenant les jeux de données nécessaires.
-- `results/` : Dossier pour stocker les résultats, sorties ou modèles générés.
-- `README.md` : Ce fichier d'explications.
-
-## Auteur
-
-- Nom : [Votre nom ici]
-- Contact : [Votre email ici]
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
+   **Pour le mode Web (Flask) :**
+   ```bash
+   cd webapp
+   python app.py
+   ```
+   Puis ouvrir [http://localhost:5000](http://localhost:5000) dans votre navigateur.
 
 ---
-
-_N'hésitez pas à adapter ce README en fonction du contenu spécifique de votre Projet 2 !_
